@@ -1,0 +1,40 @@
+slice - done
+splice  - done
+push - done
+pop - done
+length - done
+shift - done  
+unshift - done  
+indexof - done
+lastindexof - done
+
+important List :
+foreach  imp - done
+reverse - imp
+sort - imp
+fill - imp
+join - imp
+filter - imp - done
+map - imp
+findindex - imp
+find - imp
+includes - imp
+tostring - imp
+
+
+
+basic knowledge set :
+concat - b
+of - b
+isarray - b
+some - b
+every - b
+entries- b
+keys - b
+from - b
+copywithin - b
+tolocalestring - b
+flat - b
+flatmap - b
+reduceright - b
+reduce - b
