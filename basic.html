@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        
+        firstStatement();
+       
+        var a="hello world";
+        function localVar(){
+            var b="welcome"
+            console.log(b);
+        }
+        console.log(a);
+        localVar();
+       // console.log(b);
+
+        var c=3;
+        console.log("c="+c,"d="+d);
+        var d=7;
+
+        function a1(){
+            console.log("you entered function a1");
+        }
+        function a2(){
+            a1();
+            console.log("after entered a1 you entered a2");
+        }
+        a2();
+
+        function firstStatement(){
+            console.log("this is the first excution of the console");
+        }
+
+        var global1=5;
+
+        function glob(){
+           var global1=6;
+            console.log(global1+this.global1);
+        }
+        glob();
+        console.log(global1);
+        
+    </script>
+</body>
+</html>

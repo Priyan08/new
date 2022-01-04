@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <button id="one" onclick="setcolor(event,id)" value="button" data-count="1" style="background-color: gray;">click me </button>
+    <button id="two" onclick="setcolor(event,id)"value="button"data-count="1" data-color="yellow" style="background-color: orange;">click me </button>
+    <script>
+//         function setcolor(e,id){
+//             if(id === "one"){
+//                 function red(e) {
+//     var target = e.target,
+//    count = +target.dataset.count;
+
+//     target.style.backgroundColor = count === 1 ? "blue" : 'grey';
+//     target.dataset.count = count === 1 ? 0 : 1;
+//      }
+//             }
+        
+//         else if(id==="two"){
+//             function setRed(e) {
+// var target = e.target,
+//    count = +target.dataset.count;
+
+// target.style.backgroundColor = count === 1 ? "yellow" : 'orange';
+// target.dataset.count = count === 1 ? 0 : 1;
+//      }
+//         }
+//         else{
+//             console.log("nothing");
+//         }
+//     }
+
+function setcolor(e) {
+    var target = e.target,
+   count = +target.dataset.count;
+
+    target.style.backgroundColor = count === 1 ? "yellow" : 'grey';
+    target.dataset.count = count === 1 ? 0 : 1;
+     }
+    </script>
+</body>
+</html>
+
+     
