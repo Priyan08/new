@@ -18,4 +18,15 @@ while(k<9){
 }
 
 loop1:
-for(let a = 1; a<= 4;a++){}
+for(let i = 1 ;i<=3;i++){
+    console.log("outer loop running!!");
+    for(let j = 1; j<5; j++)
+    {
+    if(i==2){
+        console.log("inside loop running!!");
+        continue loop1;
+    } 
+    console.log("j loop running");
+   }
+    console.log("hii",i);
+}

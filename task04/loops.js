@@ -7,7 +7,7 @@ let details = {
 };
 
 for(let property in details){
-    console.log(details[property]);
+    console.log(`${property}:${details[property]}`);
    // delete details.age;
 }
 

@@ -4,12 +4,12 @@ push - done
 pop - done
 length - done
 shift - done  
-unshift - done  
-indexof - done
-lastindexof - done
+unshift 
+indexof 
+lastindexof 
 
 important List :
-foreach  imp - done
+foreach  imp 
 reverse - imp
 sort - imp
 fill - imp
