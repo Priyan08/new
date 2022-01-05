@@ -58,5 +58,16 @@ num.unshift(1);
 console.log(num);
 
 console.log(num.length);
-console.log(num.indexOf(2));
+console.log(num.indexOf(2,1,),"dnj");
 console.log(num.lastIndexOf(2));
+
+
+let arr = [
+    first
+];
+
+function first(a,b){
+    return a+b;
+}
+
+console.log(arr[0](2,3));

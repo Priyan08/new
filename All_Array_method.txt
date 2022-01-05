@@ -4,9 +4,9 @@ push - done
 pop - done
 length - done
 shift - done  
-unshift 
-indexof 
-lastindexof 
+unshift - done
+indexof - done
+lastindexof - done
 
 important List :
 foreach  imp 
