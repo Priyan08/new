@@ -121,3 +121,19 @@ let arrinclude = ["honda","tvs","bajaji","royal enfiled"]
 
 console.log("inclues :",arrinclude.includes("tvs",2));
   
+let spre = "wordss";
+
+let af = [...spre];
+console.log(af);
+let af1 = {...spre};
+console.log(af1);
+
+let agggg = { a: "kjjjjh", b: "guyjgyujgygyujgyujgyujg" }
+let bgggg = {...agggg, c: "uygtuuy6gukygkyuguyg"}
+
+console.log(bgggg);
+
+
+
+
+
