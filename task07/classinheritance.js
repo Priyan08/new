@@ -25,7 +25,7 @@ class User extends Store{
 }
 
 let user1 = new User();
-// user1.detail();
-// console.log(user1.product);
+user1.detail();
+console.log(user1.product);
 Store.storage();
 User.storage();

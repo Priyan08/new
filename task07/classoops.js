@@ -26,8 +26,8 @@ var clsobj = new clsexp("jai");
 // clsobj;
 var clsobj2 = new clsexp("priyan");
 clsexp;
-// clsexp.constructor();
-// console.log(clsexp.__proto__.constructor())
+clsexp.constructor();
+console.log(clsexp.__proto__.constructor())
 student;
 
 
