@@ -145,31 +145,65 @@
 //    return 4*4;
 //  }();
 
-let a = [{
-  type:"pen",
-  quality: 20
-},
-{
-  type:"paper",
-  quality:30
+// let a = [{
+//   type:"pen",
+//   quality: 20
+// },
+// {
+//   type:"paper",
+//   quality:30
+// }]
+
+// // let b;
+// function reduceobject(){
+//   let b = a.find((o)=>o.type==="pen");
+//   let c = {...b,quality: b.quality-1};
+//  // console.log(c);
+//   a.splice(a.findIndex((o)=>o.type==="pen"),1);
+//   a.push(c);
+//   console.log(a);
+// }
+
+// function forfun(){
+//    let b = a.find((o)=>o.type==="pen")
+//   //console.log(b);
+//   for(var i = b.quality;i>0;i--){
+//     reduceobject();
+//   }
+// }
+
+// forfun();
+
+
+let obje ={
+  a:1,
+  b:2
+}
+
+console.log(obje);
+obje.c = 3;
+console.log(obje);
+obje.a=4;
+console.log(obje);
+
+
+let hh = [{
+  a:1
+},{
+  b:1
 }]
+let val = hh[0]
+console.log(hh);
+console.log(val);
+let c = 3;
+let d = obje.a
+// hh[0].push(c)
+console.log(hh);
 
-// let b;
-function reduceobject(){
-  let b = a.find((o)=>o.type==="pen");
-  let c = {...b,quality: b.quality-1};
- // console.log(c);
-  a.splice(a.findIndex((o)=>o.type==="pen"),1);
-  a.push(c);
-  console.log(a);
-}
 
-function forfun(){
-   let b = a.find((o)=>o.type==="pen")
-  //console.log(b);
-  for(var i = b.quality;i>0;i--){
-    reduceobject();
-  }
-}
-
-forfun();
+// var nietos = [];
+// var obj = {};
+// obj["01"] = nieto.label;
+// obj["02"] = nieto.value;
+// nietos.push(obj);
+// console.log(nietos);
